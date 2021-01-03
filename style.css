@@ -1,0 +1,42 @@
+body,
+#quote,
+#author {
+  display: flex;
+  justify-content: center;
+}
+
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 50px;
+  width: 80%;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: rgb(247, 247, 247);
+}
+
+#quote {
+  font-family: cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+#author {
+  margin-top: 10px;
+  font-family: "Bradley Hand ITC";
+  font-size: 35px;
+}
+@media screen and (max-width: 1000px) {
+  .quoteContainer {
+    margin-top: 40%;
+  }
+  #quote {
+    font-family: cursive;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #author {
+    font-size: 25px;
+  }
+}
